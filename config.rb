@@ -44,3 +44,4 @@ configure :build do
 end
 
 set :slim, { format: :html, pretty: :false }
+set :sass, { style: :expanded, syntax: :scss }
