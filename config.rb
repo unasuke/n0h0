@@ -45,3 +45,7 @@ end
 
 set :slim, { format: :html, pretty: :false }
 set :sass, { style: :expanded, syntax: :scss }
+
+activate :deploy do |deploy|
+  deploy.method = :git
+end
