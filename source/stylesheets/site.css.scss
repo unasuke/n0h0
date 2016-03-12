@@ -20,13 +20,9 @@ body {
     left: 0;
     right: 0;
     margin: auto;
-    animation-delay: 10s;
-    -webkit-animation-delay: 10s;
     animation: spin 10s linear infinite;
 
     @keyframes spin {
-      animation-delay: 10s;
-      -webkit-animation-delay: 10s;
       0% {
         transform: rotate(0deg);
       }
