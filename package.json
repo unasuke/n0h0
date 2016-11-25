@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/unasuke/n0h0/issues"
   },
-  "homepage": "https://github.com/unasuke/n0h0#readme"
+  "homepage": "https://github.com/unasuke/n0h0#readme",
+  "dependencies": {
+    "node-sass": "^3.13.0"
+  }
 }
