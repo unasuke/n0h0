@@ -53,6 +53,6 @@ activate :external_pipeline,
   command: "npm run sass",
   source: ".tmp/dest"
 
-#activate :deploy do |deploy|
-#  deploy.method = :git
-#end
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+end
