@@ -1,9 +1,9 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem "middleman", "~> 3.3.12"
+gem "middleman", ">= 4.0.0"
 gem "middleman-livereload"
-gem "middleman-deploy"
+gem "middleman-deploy", "2.0.0.pre.alpha"
 
 gem "slim"
 gem "sass"
