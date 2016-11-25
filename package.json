@@ -1,0 +1,19 @@
+{
+  "name": "n0h0",
+  "version": "0.1.0",
+  "description": "joke",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unasuke/n0h0.git"
+  },
+  "author": "Yusuke Nakamura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unasuke/n0h0/issues"
+  },
+  "homepage": "https://github.com/unasuke/n0h0#readme"
+}
