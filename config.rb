@@ -44,7 +44,14 @@ configure :build do
 end
 
 set :slim, { format: :html, pretty: :false }
-set :sass, { style: :expanded, syntax: :scss }
+#set :sass, { style: :expanded, syntax: :scss }
+
+set :css_dir, 'stylesheets/dest/'
+
+activate :external_pipeline,
+  name: :npm,
+  command: "npm run sass",
+  source: ".tmp/dest"
 
 activate :deploy do |deploy|
   deploy.method = :git

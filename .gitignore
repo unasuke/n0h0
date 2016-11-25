@@ -19,3 +19,6 @@
 
 # Node.js libs
 node_modules
+
+# compiled stylesheets dir
+source/stylesheets/dest
