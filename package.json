@@ -21,6 +21,7 @@
     "node-sass": "^3.13.0"
   },
   "devDependencies": {
+    "webpack": "^1.14.0",
     "yarn": "^0.18.1"
   }
 }
