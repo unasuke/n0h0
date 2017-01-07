@@ -19,5 +19,8 @@
   "homepage": "https://github.com/unasuke/n0h0#readme",
   "dependencies": {
     "node-sass": "^3.13.0"
+  },
+  "devDependencies": {
+    "yarn": "^0.18.1"
   }
 }
