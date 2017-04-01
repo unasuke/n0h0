@@ -18,15 +18,9 @@
   },
   "homepage": "https://github.com/unasuke/n0h0#readme",
   "dependencies": {
-    "animejs": "^2.0.2",
     "node-sass": "^4.5.2"
   },
   "devDependencies": {
-    "css-loader": "^0.28.0",
-    "es6-loader": "^0.2.0",
-    "sass-loader": "^6.0.3",
-    "style-loader": "^0.16.1",
-    "webpack": "^2.3.2",
     "yarn": "^0.21.3"
   }
 }
