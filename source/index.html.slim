@@ -1,1 +1,11 @@
-= image_tag "n0h0.png"
+= javascript_include_tag 'anime.min.js'
+= image_tag "n0h0.png", class: 'js-rolling', alt: 'n0_h0'
+
+javascript:
+  anime({
+    targets: '.js-rolling',
+    rotate: 360,
+    duration: Math.random() * (10000 - 100) + 100,
+    easing: 'linear',
+    loop: true
+  });
